@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class camerarotate : MonoBehaviour
 {
-
     public Transform camTarget;
     public float pLerp = .01f;
     public float rLerp = .02f;

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -15,18 +13,11 @@ public class PlayerMovement : MonoBehaviour
 
     private int myMaskingLayer;
 
-    //Start is called before the first frame update 
     void Start()
     {
         myRigidbody = GetComponent<Rigidbody>();
 
         myMaskingLayer = LayerMask.GetMask("Floor");
-    }
-
-    //Update is called once per frame 
-    void Update()
-    {
-
     }
 
     private void FixedUpdate()
